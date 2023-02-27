@@ -14,6 +14,7 @@ body {
   flex: 0 1 100%;
   height: 100px; 
   position: relative;
+  height: 200px;
 
 }
 
@@ -22,6 +23,7 @@ body {
   flex: 0 1 100%;
   height: 100px;
   position: relative;
+  height: 400px;
 
 }
 
@@ -29,6 +31,7 @@ body {
   background: rgb(64, 9, 122);
   width: 450px;
   position: relative;
+  height: 200px;
 
 }
 
@@ -36,6 +39,7 @@ body {
   background-color: blueviolet;
   width: 450px;
   position: relative;
+  height: 200px;
   
 }
 
@@ -43,12 +47,14 @@ body {
   background-color: aqua;
   width: 450px;
   position: relative;
+  height: 200px;
  
 
 }
 .f {
   background-color: lime;
   flex-basis: 100%;
+  height: 200px;
 
 }
 

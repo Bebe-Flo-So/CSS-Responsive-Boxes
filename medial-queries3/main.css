@@ -1,3 +1,50 @@
 body {
   background: peachpuff;
+  font-size: 50px;
+  color: aliceblue;
+  text-align: center;
 }
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 1fr 1.2fr 1.2fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "a a a"
+    "b c h"
+    "d e h"
+    "f g h";
+}
+
+.a { grid-area: a;
+background-color: rgb(239, 233, 223); }
+
+.h { grid-area: h;
+background-color: rgb(148, 227, 227); }
+
+.b { grid-area: b;
+background-color: rgb(162, 239, 213); }
+
+.c { grid-area: c;
+background-color: azure; }
+
+.d { grid-area: d;
+background-color: beige; }
+
+.e { grid-area: e;
+background-color: rgb(245, 211, 230); }
+
+.f { grid-area: f;
+background-color: rgb(135, 135, 218); }
+
+.g { grid-area: g;
+background-color: rgb(196, 155, 234); }
+
+
+html, body , .container {
+  height: 100%;
+  margin: 5px;
+}
+
+/* For presentation only, no need to copy the code below */
+

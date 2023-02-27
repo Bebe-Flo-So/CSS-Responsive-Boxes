@@ -1,48 +1,64 @@
-
 * {
   margin: 10px;
   padding: 10px;
-  width: 100%;
-  
- 
 }
 body {
   background: blanchedalmond;
   text-align: center;
+  font-size: 50px;
+  color: white;
   
 
 }
 
 .a {
-  background-color: aqua;
-  flex-grow: 1;
-  width: 100%;
+  background-color: rgb(159, 244, 244);
+  position: relative;
+  height: 100px;
+  flex-grow: 3;
+  width: 49em;
+  align-content: stretch;
 }
   
 
 .b {
-  background-color: blueviolet;
+  background-color: rgb(209, 180, 237);
   flex-grow: 3;
+  height: 100px;
+  width: 30em;
+  margin-right: 20em;
+  margin-bottom: 25px;
 
 }
   
 
 .c { 
-  background-color: blue;
-  flex-grow: 1;
-  
+  background-color: rgb(132, 132, 233);
+  flex-grow: 3;
+  height: 100px;
+  width: 17.5em;
+  flex-wrap: wrap;
+  margin-right: -30em;
+  margin-top: -8.5em;
+  align-content: stretch;
   
 }
 
 .container { 
+
+  position: absolute;
   display: flex;
   min-height: 100vh;
+  min-width: auto;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: calc();
+  flex-wrap: wrap;
+
+  
 }
 
 @media (min-width: 600px) {
   .container 
-    flex-direction: row;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
   }
